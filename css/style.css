@@ -1042,7 +1042,7 @@ background-color: #F04761;
 transition: all .3s;
 }
 #aboutUs {
-    padding: 60px 0;
+    /* padding: 0px 0; */
     background: #FFFFFF;
 }
 
