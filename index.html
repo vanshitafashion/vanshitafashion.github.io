@@ -249,7 +249,7 @@
 			</figcaption> -->
         </figure>
           <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item effect-oscar">
-            <div class="portfolio_img"> <img src="img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>    
+            <div class="portfolio_img"> <img src="img/portfolio_pic2.jpg" onclick="enlargeImg()" alt="Portfolio 1"> </div>    
         </figure>
           <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  design  isotope-item effect-oscar">
             <div class="portfolio_img"> <img src="img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>    
@@ -429,11 +429,32 @@
         
         </div>
         <div class="col-lg-8 wow fadeInLeft delay-06s">
-          <div class="form">
+          <!-- <form method="post" action="scripts/subscriberform.php">
+            <textarea name="message"></textarea>
+            <input type="submit">
+            </form> -->
+           <!-- <div class="form">
+          <form action="mailto:vanshitafashion@gmail.com"
+            method="POST"
+            enctype="multipart/form-data"
+            name="EmailForm">
+                Name:<br>
+                <input type="text" name="Contact-Name"><br><br>
+                Email:<br>
+                <input type="email" name="Contact-Email"><br><br> 
+                Message:<br> 
+                <textarea name="Contact-Message" >
+                </textarea><br><br> 
+                <button type="submit" value="Submit">Send</button>
+            </form>   -->
+
+          <div class="form" >
+            <form method="post" action="scripts/subscriberform.php">
             <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
             <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
-            <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
-            <input class="input-btn" type="submit" value="send message">
+            <textarea class="input-text text-area"  name="Message" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+            <input class="input-btn" type="submit" value="Submit">
+          </form> 
           </div>
         </div>
       </div>

@@ -184,7 +184,7 @@ figure.effect-oscar:hover p {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
-	color:#fff;+++++++
+	color:#fff;
 }
 
 figure.effect-oscar:hover figcaption {
@@ -2037,3 +2037,16 @@ width: 99%;
 display:none;
 }
 }
+
+.portfolio_img {
+    padding: 50px; 
+    background-color: rgb(255, 255, 255);
+     transition: transform .2s;  
+    margin: 0 auto; 
+  }
+  
+  .portfolio_img:hover {
+    transform: scale(2);
+  } 
+
+
