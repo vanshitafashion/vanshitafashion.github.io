@@ -475,4 +475,7 @@ html {
     transform: scale(2);
   } 
 
-
+  img.rounded-corners {
+    border-radius: 30px;
+  }
+  
