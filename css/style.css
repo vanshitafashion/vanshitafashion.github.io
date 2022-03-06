@@ -478,15 +478,30 @@ html {
   img.rounded-corners {
     border-radius: 30px;
   }
-  .zoom {
+  /* .zoom {
     padding: 50px;
-    transition: transform .2s; /* Animation */
+    transition: transform .2s;
     width: 200px;
     height: 200px;
     margin: 0 auto;
   }
   
   .zoom:hover {
-    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.5); 
   }
   
+
+  input[type=checkbox] {
+    display: none;
+  } */
+  
+  /* .zoom img {
+    margin: 100px;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+  }
+  
+  input[type=checkbox]:checked ~ label > img {
+    transform: scale(2);
+    cursor: zoom-out;
+  } */
