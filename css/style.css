@@ -505,3 +505,15 @@ html {
     transform: scale(2);
     cursor: zoom-out;
   } */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
